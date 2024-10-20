@@ -15,5 +15,6 @@ int main(int argc, char* argv[]) {
 
     int n = std::atoi(argv[1]);  // Convert the command line argument to an integer
     std::cout << "Fibonacci number at position " << n << " is " << fibonacci(n) << std::endl;
+    std::cout<<" ENd OF PROGRAM....";
     return 0;
 }
